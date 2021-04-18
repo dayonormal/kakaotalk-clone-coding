@@ -1,0 +1,17 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap");
+
+/*screens*/
+@import "screens/login.css";
+
+/*components*/
+@import "components/media-query.css";
+@import "components/status-bar.css";
+@import "components/variables.css";
+
+body {
+  height: 100vh;
+  padding: 5px 10px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+}
