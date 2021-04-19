@@ -1,17 +1,29 @@
-@import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap");
-
-/*screens*/
-@import "screens/login.css";
+@import "reset.css";
+@import "variables.css";
 
 /*components*/
 @import "components/media-query.css";
 @import "components/status-bar.css";
-@import "components/variables.css";
+@import "components/screen-header.css";
+@import "components/profile-box.css";
+@import "components/nav-bar.css";
+@import "components/notification.css";
+@import "components/icons-row.css";
+@import "components/control-bar.css";
+
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   height: 100vh;
-  padding: 5px 10px;
+  width: 100vw;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
+  box-sizing: border-box;
 }

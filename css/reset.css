@@ -129,7 +129,10 @@ table {
 }
 
 input,
-button {
+button,
+a {
   border: none;
   outline: none;
+  color: inherit;
+  text-decoration: none;
 }

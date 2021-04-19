@@ -1,0 +1,21 @@
+.setting-menu {
+  margin: var(--default-margin);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.setting-menu__column i {
+  margin-right: 15px;
+}
+
+.setting-menu__column:first-child span {
+  font-size: 25px;
+}
+
+.setting-menu__column:last-child span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 23px;
+}

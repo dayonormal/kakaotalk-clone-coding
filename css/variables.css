@@ -1,2 +1,5 @@
 :root {
+  --main-light-gray: rgba(0, 0, 0, 0.3);
+  --default-border: 1px solid var(--main-light-gray);
+  --default-margin: 30px 20px;
 }

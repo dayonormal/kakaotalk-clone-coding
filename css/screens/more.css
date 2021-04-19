@@ -1,0 +1,12 @@
+.more-screen__suggestion {
+  font-size: 17px;
+  font-weight: 400;
+  margin: var(--default-margin);
+  border-top: var(--default-border);
+  padding-top: 40px;
+}
+
+.fa-stack-exchange {
+  color: rgba(0, 0, 0, 0.8);
+  margin-right: 10px;
+}

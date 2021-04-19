@@ -1,0 +1,95 @@
+.recommend-box {
+  margin: var(--default-margin);
+  border-bottom: var(--default-border);
+  color: var(--main-light-gray);
+}
+
+.recommend-box h6,
+.openchat-box span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.recommend-box h5 {
+  font-size: 17px;
+  text-align: center;
+  margin: 120px 0;
+}
+
+.openchat-box {
+  margin: var(--default-margin);
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-light-gray);
+}
+
+.openchat-box span i {
+  margin-left: 10px;
+}
+
+.tag-box {
+  margin: var(--default-margin);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-column {
+  text-transform: uppercase;
+}
+
+.tag-column h4 {
+  font-weight: 400;
+
+  font-size: 20px;
+}
+.tag-column h5 {
+  font-size: 15px;
+  color: var(--main-light-gray);
+  margin: 8px 0;
+}
+
+.tag-column__fans {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.tag-column__fans-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.tag-column__fans-number {
+  margin: 0 10px;
+  padding: 0 10px;
+  border-left: var(--default-border);
+  border-right: var(--default-border);
+}
+
+.tag-column__fans-status {
+  color: tomato;
+}
+
+.tag-column__logo {
+  position: relative;
+}
+
+.tag-column__logo-img {
+  width: 110px;
+  height: 110px;
+  padding-left: 40px;
+}
+
+.tag-column__logo-heartcount {
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #8fa0df;
+  padding: 5px 7px;
+  position: absolute;
+  right: 90px;
+  bottom: 1px;
+}

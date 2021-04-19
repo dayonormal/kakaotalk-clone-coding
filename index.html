@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body class="login-screen">
+<body>
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -21,7 +21,7 @@
         <div class="status-bar__column">
             <i class="fas fa-lock"></i>
             <span>56%</span>
-            <i class="fas fa-battery-half"></i>
+            <i class="fas fa-battery-half fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
@@ -34,10 +34,10 @@
     </div>
 
     <form action="friends.html" method="get" class="login-box">
-        <input type="text" class="login-box__input" placeholder="Emaiil or Phone number">
-        <input type="password" class="login-box__input" placeholder="Password">
-        <input type="submit" class="login-box__submit" value="Log In">
-        <input type="submit" class="login-box__submit" value="Sign Up">
+        <input required type="text" class="login-box__input" placeholder="Emaiil or Phone number">
+        <input required type="password" class="login-box__input" placeholder="Password">
+        <input type="submit" class="login-box__btn login-box__btn-login" value="Log In">
+        <input type="submit" class="login-box__btn login-box__btn-signup" value="Sign Up">
         <a href="#">Find KakaoTalk Account or Password</a>
     </form>
 
